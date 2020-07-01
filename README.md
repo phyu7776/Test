@@ -22,9 +22,7 @@ public void getWirte() throws Exception {
 ```
 실행할떄 no database select 오류가 뜨면 마지막 줄에
 from database 적어줄것 !!
-아니면 root-context 부분에 
-<property name="url" value="jdbc:mariadb://127.0.0.1:3306/스키마이름" />
-적을것
+아니면 root-context 부분에  <property name="url" value="jdbc:mariadb://127.0.0.1:3306/스키마이름" /> 적을것
 
 
 후에 게시물을 서버에 올림
