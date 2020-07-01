@@ -7,11 +7,14 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>Hello world!</h1>
+	<h1>이것은 메인페이지</h1>
 
-	<P>The time on the server is ${serverTime}.</P>
+	<P>지금 서버 시간은 ${serverTime}.</P>
+	<p>
+	<a href="/board/list">게시물 목록</a><br />
+	<a href="/board/write">게시물 작성</a>
+	</p>
 	
-	<!--  내용추가 -->>
 </body>
 </html>
 
