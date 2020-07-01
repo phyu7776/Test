@@ -12,12 +12,14 @@ public void getWirte() throws Exception {
 }
 ```
 작성한후에 연동되어 있는 데이터 베이스에 넣어주기위해 Mapper를 통해 쿼리문을 작성해 주는데
+```
 <!-- 게시물 작성 -->
 <insert id="write" parameterType="com.board.domain.BoardVO">
  insert into
   tbl_board(title, content, writer)
    values(#{title}, #{content}, #{writer})
 </insert>
+```
 실행할떄 no database select 오류가 뜨면 마지막 줄에
 from database 적어줄것 !!
 아니면 root-context 부분에 
