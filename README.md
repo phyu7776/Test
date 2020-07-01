@@ -1,5 +1,5 @@
 # Test
-깃허브 연동
+깃허브 연동에 대한 자세한 설명 https://kuzuro.blogspot.com/2018/04/github.html
 # 게시물 작성
 Controller 부분에서 목록 불러오는 부분은 데이터 베이스에서 GET 하여 가져왔지만 작성 부분에서는 POST 사용
 
