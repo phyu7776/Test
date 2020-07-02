@@ -12,7 +12,7 @@
 	<P>지금 서버 시간은 ${serverTime}.</P>
 	<p>
 	<a href="/board/list">게시물 목록</a><br />
-	<a href="/board/write">게시물 작성</a>
+	<a href="/board/write">게시물 작성</a><br />
 	</p>
 	
 </body>
